@@ -98,6 +98,61 @@
   .dark .placeholder\:text-slate-400::placeholder {
     color: #64748b;
   }
+
+  /*
+   * Fixed FABs: do not use bg-white / text-white / bg-slate-900 tokens here,
+   * or global .dark overrides above will fight Tailwind dark: utilities.
+   */
+  .fab-surface {
+    @apply flex h-12 w-12 items-center justify-center rounded-full border text-slate-700 shadow-xl transition-all duration-300 hover:scale-110;
+    border-color: #e2e8f0;
+    background-color: #fff;
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    --tw-shadow-color: rgb(15 23 42 / 0.1);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
+  .fab-surface:hover {
+    border-color: #cbd5e1;
+    background-color: #f8fafc;
+  }
+
+  .dark .fab-surface {
+    border-color: #334155;
+    background-color: #0f172a;
+    color: #f1f5f9;
+    --tw-shadow-color: rgb(0 0 0 / 0.3);
+  }
+
+  .dark .fab-surface:hover {
+    border-color: #475569;
+    background-color: #1e293b;
+  }
+
+  .fab-scroll {
+    @apply rounded-full p-3 shadow-xl transition-all duration-300 hover:scale-110;
+    background-color: #0f172a;
+    color: #fff;
+    --tw-shadow-color: rgb(15 23 42 / 0.2);
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
+  .fab-scroll:hover {
+    background-color: #1e293b;
+  }
+
+  .dark .fab-scroll {
+    background-color: #fff;
+    color: #0f172a;
+    --tw-shadow-color: rgb(0 0 0 / 0.3);
+  }
+
+  .dark .fab-scroll:hover {
+    background-color: #f1f5f9;
+  }
 }
 
 @keyframes soft-pulse {

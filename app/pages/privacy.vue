@@ -22,7 +22,7 @@ const content = computed(() => {
         },
         {
           title: 'Cookie 与本地存储',
-          body: '本站可能使用 Cookie 或本地存储记住语言偏好、主题模式以及评论组件所需的基础状态。这些数据仅用于提升访问体验，您可以在浏览器设置中清除或禁用。',
+          body: '本站可能使用 Cookie 或本地存储记住语言偏好、浅色/深色外观偏好以及评论组件所需的基础状态。这些数据仅用于提升访问体验，您可以在浏览器设置中清除或禁用。',
         },
         {
           title: '第三方服务',
@@ -57,7 +57,7 @@ const content = computed(() => {
       },
       {
         title: 'Cookies and Local Storage',
-        body: 'This site may use cookies or local storage to remember language preferences, theme mode, and basic states required by the comment system. You can clear or disable them in your browser settings.',
+        body: 'This site may use cookies or local storage to remember language preferences, light/dark appearance preference, and basic states required by the comment system. You can clear or disable them in your browser settings.',
       },
       {
         title: 'Third-Party Services',
