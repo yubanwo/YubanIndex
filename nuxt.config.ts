@@ -1,8 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
+  ssr: true,
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxtjs/i18n'],
+  nitro: {
+    preset: 'static',
+    prerender: {
+      crawlLinks: true
+    }
+  },
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css'
   },

@@ -8,8 +8,6 @@
       <AppFooter />
     </main>
 
-    <ScrollTopButton />
-    <LocaleToggle />
-    <ModeToggle />
+    <FloatingActions />
   </div>
 </template>
