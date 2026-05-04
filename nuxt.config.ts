@@ -26,10 +26,6 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'zh',
     strategy: 'prefix_except_default',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'osyb_locale',
-      redirectOn: 'root'
-    }
+    detectBrowserLanguage: false
   }
 })

@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { Layers, LayoutGrid, Mail, Sparkles, Zap } from 'lucide-vue-next'
 
-const { t } = useI18n()
+const { locale, t } = useI18n()
 const localePath = useLocalePath()
+const homeSeoTitle = computed(() => locale.value === 'zh'
+  ? 'Yuban 生态服务矩阵 - 数字工具与网络基础设施'
+  : 'Yuban Digital Services Matrix - Web Tools and Infrastructure')
 
 usePageSeo({
-  title: () => t('home.seoTitle'),
+  title: () => homeSeoTitle.value,
   description: () => t('home.seoDescription'),
 })
 </script>
