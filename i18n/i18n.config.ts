@@ -37,8 +37,8 @@ export default defineI18nConfig(() => ({
         icp: 'ICP备XXXXXX号-1',
       },
       home: {
-        seoTitle: 'Yuban 生态服务',
-        seoDescription: '探索 Yuban 数字服务矩阵。',
+        seoTitle: 'Yuban 生态服务矩阵 - 数字工具与网络基础设施',
+        seoDescription: 'Yuban 汇集数字服务、前端工具、网络基础设施与资源加速能力，覆盖站点收录、CDN、字体镜像、网络诊断等场景，为个人用户和开发者提供稳定、高效、易用的在线服务体验。',
         title: 'Yuban 生态服务',
         description: '欢迎探索 Yuban 数字服务矩阵。我们致力于为您提供极简、高效且稳定可靠的网络产品与基础设施，全面赋能您的数字体验。',
         features: {
@@ -57,8 +57,8 @@ export default defineI18nConfig(() => ({
         },
       },
       sites: {
-        seoTitle: '核心产品与生态 - Yuban',
-        seoDescription: '探索 Yuban 构建的数字生态矩阵。',
+        seoTitle: 'Yuban 核心产品与生态 - 站点工具、CDN 与诊断服务',
+        seoDescription: '浏览 Yuban 的核心产品与生态服务，包括技术博客、流量卡评测、站点收录工具、CDN 加速、字体镜像和网络身份诊断，快速了解各项服务的用途与入口。',
         title: '核心产品与生态',
         description: '探索我们构建的数字生态矩阵，每一个节点都经过精心打磨，旨在为您提供卓越的性能与无缝的体验。',
         blog: {
@@ -87,8 +87,8 @@ export default defineI18nConfig(() => ({
         },
       },
       about: {
-        seoTitle: '关于 - Yuban',
-        seoDescription: '了解 Yuban 的核心理念与技术底座。',
+        seoTitle: '关于 Yuban - 数字服务理念、技术基础设施与承诺',
+        seoDescription: '了解 Yuban 的产品理念、技术基础设施和服务承诺，认识我们如何围绕性能、可用性、隐私保护与清晰易用的体验构建数字服务生态。',
         title: '关于 Yuban',
         description: '致力于在代码与设计之间找到完美的平衡，构建优雅且高效的数字产品生态体系。',
         missionTitle: '愿景与使命',
@@ -104,8 +104,8 @@ export default defineI18nConfig(() => ({
         promisePrivacyStrong: '隐私至上 (Privacy First)：',
       },
       status: {
-        seoTitle: '系统运行状态 - Yuban',
-        seoDescription: '实时监控 Yuban 核心节点服务状态。',
+        seoTitle: 'Yuban 系统运行状态 - 核心服务节点健康监控',
+        seoDescription: '查看 Yuban 核心服务节点的运行状态、可用性和响应情况，及时了解站点、工具、资源加速与基础设施的服务健康度和整体可用性。',
         title: '系统运行状态',
         description: '实时监控旗下所有核心节点的服务状态与响应延迟。',
         allGood: '所有服务运行正常',
@@ -119,8 +119,8 @@ export default defineI18nConfig(() => ({
         detail: '节点详情',
       },
       contact: {
-        seoTitle: '建立联系 - Yuban',
-        seoDescription: '联系 Yuban 获取商务合作、产品支持和技术咨询。',
+        seoTitle: '联系 Yuban - 商务合作、产品支持与技术咨询',
+        seoDescription: '通过邮件或留言联系 Yuban，获取商务合作、产品支持、技术咨询、服务接入和数字工具相关问题的帮助，我们会根据具体需求进行回复。',
         title: '建立联系',
         description: '无论您是需要商务合作、产品支持还是技术咨询，我们都随时准备为您提供帮助。',
         emailLabel: '发送电子邮件',
@@ -137,8 +137,8 @@ export default defineI18nConfig(() => ({
       },
       error: {
         404: {
-          seoTitle: '页面未找到 - Yuban',
-          seoDescription: '你访问的页面不存在或已被移动。',
+          seoTitle: '页面未找到 - Yuban 站点导航与产品入口',
+          seoDescription: '你访问的页面不存在、已被移动或链接输入有误，可返回首页或浏览 Yuban 核心产品与服务入口。',
           code: '404',
           title: '页面未找到',
           description: '抱歉，你访问的页面不存在、已被移动，或链接输入有误。',
@@ -181,8 +181,8 @@ export default defineI18nConfig(() => ({
         icp: 'ICP XXXXXX-1',
       },
       home: {
-        seoTitle: 'Yuban Services',
-        seoDescription: 'Explore the Yuban digital service matrix.',
+        seoTitle: 'Yuban Digital Services Matrix - Web Tools and Infrastructure',
+        seoDescription: 'Yuban brings together digital services, frontend tools, web infrastructure, and resource acceleration for stable, efficient online experiences.',
         title: 'Yuban Services',
         description: 'Welcome to the Yuban digital service matrix. We build simple, efficient, and reliable web products and infrastructure for a better digital experience.',
         features: {
@@ -201,8 +201,8 @@ export default defineI18nConfig(() => ({
         },
       },
       sites: {
-        seoTitle: 'Products & Ecosystem - Yuban',
-        seoDescription: 'Explore the Yuban digital ecosystem.',
+        seoTitle: 'Yuban Products - Web Tools, CDN, and Diagnostics',
+        seoDescription: 'Browse Yuban products and ecosystem services, including the blog, mobile plan reviews, indexing tools, CDN acceleration, fonts, and diagnostics.',
         title: 'Products & Ecosystem',
         description: 'Explore the digital ecosystem we are building. Every node is crafted for strong performance and a seamless experience.',
         blog: {
@@ -231,8 +231,8 @@ export default defineI18nConfig(() => ({
         },
       },
       about: {
-        seoTitle: 'About - Yuban',
-        seoDescription: 'Learn about Yuban ideas and technical foundation.',
+        seoTitle: 'About Yuban - Infrastructure, Privacy, and Usability',
+        seoDescription: 'Learn about Yuban product ideas, technical infrastructure, and service commitments across performance, availability, privacy, and usability.',
         title: 'About Yuban',
         description: 'Finding the balance between code and design to build elegant, efficient digital products.',
         missionTitle: 'Vision & Mission',
@@ -248,8 +248,8 @@ export default defineI18nConfig(() => ({
         promisePrivacyStrong: 'Privacy First:',
       },
       status: {
-        seoTitle: 'System Status - Yuban',
-        seoDescription: 'Monitor Yuban core service nodes in real time.',
+        seoTitle: 'Yuban System Status - Core Service Node Health Monitoring',
+        seoDescription: 'Check the operating status, availability, and response health of Yuban core service nodes across sites, tools, and infrastructure.',
         title: 'System Status',
         description: 'Real-time monitoring for core service status and response latency.',
         allGood: 'All systems operational',
@@ -263,8 +263,8 @@ export default defineI18nConfig(() => ({
         detail: 'Node Details',
       },
       contact: {
-        seoTitle: 'Contact - Yuban',
-        seoDescription: 'Contact Yuban for business, product support, and technical consultation.',
+        seoTitle: 'Contact Yuban - Support, Cooperation, and Consulting',
+        seoDescription: 'Contact Yuban for business cooperation, product support, technical consultation, service access, and questions about digital tools.',
         title: 'Contact',
         description: 'For business, product support, or technical questions, we are ready to help.',
         emailLabel: 'Email',
@@ -281,8 +281,8 @@ export default defineI18nConfig(() => ({
       },
       error: {
         404: {
-          seoTitle: 'Page Not Found - Yuban',
-          seoDescription: 'The page you requested does not exist or has moved.',
+          seoTitle: 'Page Not Found - Yuban Site Navigation and Product Entry',
+          seoDescription: 'The page you requested does not exist, has moved, or uses an incorrect link. Return home or browse Yuban products and services.',
           code: '404',
           title: 'Page not found',
           description: 'Sorry, the page you requested does not exist, has been moved, or the URL is incorrect.',

@@ -6,8 +6,8 @@ const { locale } = useI18n()
 const content = computed(() => {
   if (locale.value === 'zh') {
     return {
-      seoTitle: '服务条款 - Yuban',
-      seoDescription: '了解使用 Yuban 相关站点和服务时适用的基本条款。',
+      seoTitle: 'Yuban 服务条款 - 站点使用规则、用户内容与免责声明',
+      seoDescription: '了解使用 Yuban 相关站点、工具、评论互动和网络服务时适用的基础规则，涵盖合理使用、用户内容、外部链接、免责声明与条款更新。',
       title: '服务条款',
       description: '使用本站及相关服务前，请了解这些基础规则。它们帮助我们保持服务可靠、清晰并可持续。',
       updated: '最后更新：2026 年 5 月 3 日',
@@ -41,8 +41,8 @@ const content = computed(() => {
   }
 
   return {
-    seoTitle: 'Terms of Service - Yuban',
-    seoDescription: 'Review the basic terms that apply when using Yuban sites and services.',
+    seoTitle: 'Yuban Terms - Site Rules, Content, and Disclaimer',
+    seoDescription: 'Review the rules for using Yuban sites, tools, comments, and web services, including acceptable use, user content, external links, and disclaimers.',
     title: 'Terms of Service',
     description: 'Before using this site and related services, please review these basic rules. They help keep the services reliable, clear, and sustainable.',
     updated: 'Last updated: May 3, 2026',

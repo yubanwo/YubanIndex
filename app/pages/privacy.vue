@@ -6,8 +6,8 @@ const { locale } = useI18n()
 const content = computed(() => {
   if (locale.value === 'zh') {
     return {
-      seoTitle: '隐私政策 - Yuban',
-      seoDescription: '了解 Yuban 如何处理访问数据、评论数据和第三方服务。',
+      seoTitle: 'Yuban 隐私政策 - 数据处理、Cookie 与第三方服务说明',
+      seoDescription: '了解 Yuban 如何处理访问数据、留言评论、Cookie、本地存储和第三方服务数据，包括信息用途、保留方式、删除请求和隐私相关联系渠道。',
       title: '隐私政策',
       description: '我们尊重您的隐私，并尽量以最少的数据完成站点运行、联系沟通和服务改进。',
       updated: '最后更新：2026 年 5 月 3 日',
@@ -41,8 +41,8 @@ const content = computed(() => {
   }
 
   return {
-    seoTitle: 'Privacy Policy - Yuban',
-    seoDescription: 'Learn how Yuban handles access data, comments, and third-party services.',
+    seoTitle: 'Yuban Privacy Policy - Data, Cookies, and Services',
+    seoDescription: 'Learn how Yuban handles access data, comments, cookies, local storage, and third-party services, plus how to contact us for privacy requests.',
     title: 'Privacy Policy',
     description: 'We respect your privacy and keep data collection limited to what is needed for site operation, communication, and improvement.',
     updated: 'Last updated: May 3, 2026',
